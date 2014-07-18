@@ -13,6 +13,7 @@ class LoginFormPlugin(CMSPluginBase):
     name = _(u"Плагин формы логина")
     cache = False
     module = _(u'Аутентификация')
+    render_template = 'cms_auth_forms/login_form_plugin.html'
 
     def render(self, context, instance, placeholder):
         # pylint: disable=E1101

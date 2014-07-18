@@ -1,0 +1,2 @@
+include MANIFEST.in
+recursive-include cms_auth_forms/templates *
